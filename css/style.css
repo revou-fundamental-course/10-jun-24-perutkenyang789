@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background: #00215E;
+    padding-bottom: 20px;
+}
+h1{
+    font-size: 61px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 22px;
+}
+sub{
+    font-size: 50%;
+}
+sup{
+    font-size: 50%;
+}
+.section-box{
+    font-family: 'Montserrat';
+    color: #FDFFC2;
+    background: #2C4E80;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 35px 1px;
+    min-width: 436px;
+    max-width: 966px;
+    min-height: 517px;
+    padding-top: 2px;
+    padding-left: 51px;
+    padding-right: 51px;
+    padding-bottom: 35px;
+    margin-top: 98px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Title{
+    text-align: center;
+}
+.description{
+    max-width: 726px;
+    text-align: center;
+    margin: auto;
+}
+#input-boxes{
+    padding-top: 24px;
+    margin: auto;
+    max-width: 840px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    gap: 78px;
+}
+.input-box{
+    border-radius: 10px;
+    border: 0;
+    width: 364px;
+    height: 129px;
+    box-shadow: #2C4E80 1px 1px 30px 6px inset;
+    text-align: center;
+    font-size: 39px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #FFC55A;
+}
+#output-box{
+    border-radius: 10px;
+    border: 0;
+    width: 364px;
+    height: 129px;
+    background: white;
+    box-shadow: #2C4E80 1px 1px 30px 6px inset;
+    text-align: center;
+}
+#output-text{
+    font-size: 39px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #2C4E80;
+    opacity: 47%;
+}
+::placeholder{
+    color: #2C4E80;
+    opacity: 47%;
+}
+#button-section{
+    padding-top: 24px;
+    margin: auto;
+    max-width: 503px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    gap: 35px;
+}
+.button{
+    height: 65px;
+    width: 234px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #FC4100;
+    color: #FFC55A;
+    box-shadow: #FFC55A 0.1px 0.1px 15px 1px;
+    font-weight: bold;
+    font-size: 34px;
+    font-family: 'Montserrat';
+}
+.button:active{
+    height: 63px;
+    width: 232px;
+    margin-left: 1px;
+    margin-right: 1px;
+    box-shadow: none;
+}
+#conversion-description{
+    text-align: center;
+    color: #FC4100;
+    text-shadow: #00215E 1px 1px 10px;
+}
+#procedure-explanatory{
+    width: 400px;
+    height: 100px;
+    margin-inline: auto;
+    margin-top: 50px;
+    line-height: 90px;
+    text-align: center;
+    background: #f0f0f0;
+    border-color: #FFC55A;
+    border-width: 5px;
+    border-style: double;
+}
+#procedure-description{
+    font-size: 36px;
+    color: #FC4100;
+    font-weight: bold;
+    text-shadow: #00215E 1px 1px 40px;
+}

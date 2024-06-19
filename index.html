@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="section-box" id="input-section">
+        <header class="Title" id="main-title">
+            <h1>Temperature Converter</h1>
+        </header>
+        <nav class="description-box" id="input-guide">
+            <p class="description" id="inpur-description">
+                Masukkan suhu derajat Celcius (°C) ke kotak di bawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F).
+            </p>
+        </nav>
+        <section id="input-boxes">
+            <input type="number" placeholder="Celcius (°C)" class="input-box" id="celcius-input">
+            <div id="output-box">
+                <p id="output-text">Fahrenheit (°F)</p>
+            </div>
+        </section>
+        <footer id="button-section">
+            <button class="button" onclick="calculate()">Konversi</button>
+            <button class="button" onclick="reset()">Reset</button>
+        </footer>
+    </div>
+    <div class="section-box" id="calculation-explanatory">
+        <header class="Title" id="explanatory-title">
+            <h1>Cara Konversi</h1>
+        </header>
+        <nav class="description-box" id="temperature-conversion">
+            <h2 id="conversion-description">
+                ---
+            </h2>
+        </nav>
+        <section id="procedure-title">
+            <h3>Rumus konversi dari Celcius (°C) ke Fahrenheit (°F)</h3>
+            <hr>
+        </section>
+        <section id="procedure-explanatory">
+            <p class="description" id="procedure-description">
+                <I>S</I><sub>(°F)</sub> = (<I>S</I><sub>(°C)</sub> × <sup>9</sup>&frasl;<sub>5</sub>) + 32
+            </p>
+        </section>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
